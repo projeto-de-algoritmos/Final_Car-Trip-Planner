@@ -10,21 +10,61 @@
 | 20/2016462  |  Heitor Marques S. Barbosa |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O Car Trip Planner é um programa desktop desenvolvido em Python que serve para calcular a rota de uma viagem de carro, passando pelas cidades visando pagar a menor quantidade possível em pedágios. Além disso, é possível informar a quantidade de notas e moedas disponível para saber a quantidade mínima de moedas necessária para pagar os pedágios. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![image](https://user-images.githubusercontent.com/33001620/217129811-2694e6e6-6d18-4368-bb8f-d4dfebe75db4.png)
+
+![image](https://user-images.githubusercontent.com/33001620/217129835-3ad70695-1ce3-4f8d-bd2f-de760d8b6aa6.png)
+
+![image](https://user-images.githubusercontent.com/33001620/217130286-82b89c36-a1bf-4511-aaa1-7519dc50e4cc.png)
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python<br>
+- Crie uma venv com o comando:
+
+```
+python3 -m venv venv
+```
+
+ou 
+
+```
+python -m venv venv
+```
+
+- Ative a venv com o comando:
+
+No Windows:
+```
+venv\Scripts\activate
+```
+
+No Linux:
+```
+source venv/bin/activate
+```
+
+- Instale os requirements:
+
+```
+pip install -r requirements.txt
+```
+
+### Rodando o código
+
+Abra o terminal na pasta `src`. Use o comando:
+
+```
+python main.py
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Após executar o programa, basta selecionar as cidades e clicar no botão para calcular o trajeto mais barato. E depois informar as quantidades de moedas e clicar no botão de calcular a quantidade de moedas.
+
 
 
 
