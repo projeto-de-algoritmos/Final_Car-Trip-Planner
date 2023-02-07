@@ -68,8 +68,31 @@ for city in CITIES:
     vertices.append(Vertex(city))
 
 edges = [Edge(vertices[0], vertices[1], 3.50),
-         Edge(vertices[1], vertices[2], 1.50),
-         Edge(vertices[0], vertices[2], 30)]
+         Edge(vertices[1], vertices[0], 3.50),
+         Edge(vertices[0], vertices[8], 2.50),
+         Edge(vertices[8], vertices[0], 2.50),
+         Edge(vertices[0], vertices[3], 7.50),
+         Edge(vertices[3], vertices[0], 7.50),
+         Edge(vertices[0], vertices[4], 4.50),
+         Edge(vertices[4], vertices[0], 4.50),
+         Edge(vertices[1], vertices[3], 2.25),
+         Edge(vertices[3], vertices[1], 2.25),
+         Edge(vertices[2], vertices[3], 8.00),
+         Edge(vertices[3], vertices[2], 8.00),
+         Edge(vertices[2], vertices[5], 2.00),
+         Edge(vertices[5], vertices[2], 2.00),
+         Edge(vertices[3], vertices[8], 3.25),
+         Edge(vertices[8], vertices[3], 3.25),
+         Edge(vertices[3], vertices[6], 7.50),
+         Edge(vertices[6], vertices[3], 7.50),
+         Edge(vertices[5], vertices[6], 2.50),
+         Edge(vertices[6], vertices[5], 2.50),
+         Edge(vertices[6], vertices[10], 7.50),
+         Edge(vertices[10], vertices[6], 7.50),
+         Edge(vertices[7], vertices[9], 7.0),
+         Edge(vertices[9], vertices[7], 7.0),
+         Edge(vertices[9], vertices[10], 10.00),
+         Edge(vertices[10], vertices[9], 10.00)]
 
 
 window = tk.Tk()

@@ -1,2 +1,3 @@
 FONT_NAME = "Courier"
-CITIES = ["cidade a", "cidade b", "cidade c"]
+CITIES = ["Jaboticabal", "Matao", "Mococa", "Cajuru", "Itapolis", "Corumbatai", "Sao Carlos", "Brotas", "Americana",
+          "Conchal", "Porto Ferreira"]
